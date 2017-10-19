@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+.remark-container {
+  background-color: grey;
+}
+
+body {
+  font-family: 'Roboto';
+  font-style: light;
+}
+h1, h2, h3 {
+  font-family: 'Raleway';
+  font-weight: normal;
+}
+.remark-code, .remark-inline-code {
+  font-family: 'Ubuntu Mono';
+}
