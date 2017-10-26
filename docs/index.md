@@ -16,32 +16,13 @@ From the 24th of October until the 17th of November, dMA will host a bi weekly r
 + Feedback Loops
 + What we wont be doing
 
+recap video here
+https://www.youtube.com/watch?v=ooeThjJTYzI&list=PLgHWkjKjiYs3mFqDZF0KVfqiVzZhVk3xz&index=2)
+
 **Lesson 1 - Our first little robot**
-+ Setting up our environment
-  + Setting up our IDE
-  + Wiring stuff up (or *a 101 in not setting stuff on fire*)
-  + Taking notes! (Markdown)
-+ Our first program
-  + Something quick and dirty
-  + Using Libraries
-  + Debugging
-+ Making it move
 
-**Lesson 2 - Making more sense**
-+ Planning your code
-+ Code Basics
-  + variables & constants (types)
-  + Flow control & Conditionals
-  + Best practices
-  + Functions
++ Intro to programming - Virtual robots
+  + Google's blockly - https://github.com/google/blockly
 
-**Lesson 3**
-+ Connecting to the network
-+ Building UIs
-+ Connecting to external Services
-
-**Class 4**
-+ World models
-+ Advanced Sensing
-+ Path finding & route Planning
-+ Computer vision!
+recap video here 
+https://www.youtube.com/watch?v=h9a6zrO9VEk&list=PLgHWkjKjiYs3mFqDZF0KVfqiVzZhVk3xz&index=1
