@@ -17,12 +17,19 @@ From the 24th of October until the 17th of November, dMA will host a bi weekly r
 + What we wont be doing
 
 recap video here
-https://www.youtube.com/watch?v=ooeThjJTYzI&list=PLgHWkjKjiYs3mFqDZF0KVfqiVzZhVk3xz&index=2)
+https://www.youtube.com/watch?v=ooeThjJTYzI&list=PLgHWkjKjiYs3mFqDZF0KVfqiVzZhVk3xz&index=2
 
-**Lesson 1 - Our first little robot**
+**Lesson 1 - Our first little (virtual) robot**
 
 + Intro to programming - Virtual robots
   + Google's blockly - https://github.com/google/blockly
 
-recap video here 
+recap video here
 https://www.youtube.com/watch?v=h9a6zrO9VEk&list=PLgHWkjKjiYs3mFqDZF0KVfqiVzZhVk3xz&index=1
+
+
+**Lesson 2 - Getting started with Hardware**
+[(Notes)](slides/C004-ESP8266Wemos/index.html)
++ The Arduino IDE
+  + With Arduinos
+  + With other boards, namely the ESP8266
