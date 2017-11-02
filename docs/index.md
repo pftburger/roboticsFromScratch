@@ -16,7 +16,7 @@ From the 24th of October until the 17th of November, dMA will host a bi weekly r
 + Feedback Loops
 + What we wont be doing
 
-[Markdown cheet sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
+[Markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
 
 [recap video here](https://www.youtube.com/watch?v=ooeThjJTYzI&list=PLgHWkjKjiYs3mFqDZF0KVfqiVzZhVk3xz&index=2)
 
