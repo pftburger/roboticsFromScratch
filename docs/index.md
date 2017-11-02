@@ -28,8 +28,5 @@ From the 24th of October until the 17th of November, dMA will host a bi weekly r
 [recap video here](https://www.youtube.com/watch?v=h9a6zrO9VEk&list=PLgHWkjKjiYs3mFqDZF0KVfqiVzZhVk3xz&index=1)
 
 
-**Lesson 2 - Getting started with Hardware**
-[(Notes)](slides/C004-ESP8266Wemos/index.html)
-+ The Arduino IDE
-  + With Arduinos
-  + With other boards, namely the ESP8266
+**Lesson 2 - Learning the basics of programming, on the Arduino**
+[(Notes)](slides/Arduino001/index.html)
