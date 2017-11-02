@@ -1,12 +1,14 @@
-
+<!---
 class: middle, center
+-->
 
 # Robotics from Scratch - Arduino 001
 ## dAM Winter Semester 2017
 
 ---
-
+<!---
 class: left
+-->
 
 # Intro to Arduino Basics
 + Getting your environment set up
@@ -14,11 +16,10 @@ class: left
   + Look arround the IDE
   + Connecting a board & uploading code
 + Underlying concepts
-  + Voltage
-    + [Exercise - Measuring voltage](#exercise---measuring-voltage)
+  + Voltage [Exercise - Measuring voltage](#exercise---measuring-voltage)
   + Floating inputs
-  + Serial
-    + [Exercise - PC to PC Serial](#exercise---pc2pc-serial)
+  + Serial [Exercise - PC to PC Serial](#exercise---pc2pc-serial)
+
 ---
 
 # Code on the Arduino
