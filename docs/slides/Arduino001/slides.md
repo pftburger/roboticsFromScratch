@@ -15,16 +15,16 @@ class: left
   + Connecting a board & uploading code
 + Underlying concepts
   + Voltage
-    + [**Exercise - Measuring voltage**](#ex-measuring-voltage)
+    + [**Exercise - Measuring voltage**](#ex---measuring-voltage)
   + Floating inputs
   + Serial
-    + [**Exercise - PC to PC Serial**](#ex-pc2pc-serial)
+    + [**Exercise - PC to PC Serial**](#ex---pc2pc-serial)
 
 ---
 
 # Code on the Arduino
   + Structure
-    + Setup & Loop [**Exercise - One Blink Vs Many**](#ex-oneblink)
+    + Setup & Loop [**Exercise - One Blink Vs Many**](#ex---oneblink)
     + Curly Brackets {}
     + Line ending with the semi colon ;
   + Good Ideas
