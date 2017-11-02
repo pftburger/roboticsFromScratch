@@ -1,4 +1,4 @@
-suggest<!---
+<!---
 class: middle, center
 -->
 
@@ -148,7 +148,6 @@ Basics of Coding - Structure
 # Curly Brackets {}
 
 Curly Brackets, sometimes called braces help group code.
-
 For example, in the bare minimum program
 ```javascript
 void setup() {
@@ -158,12 +157,10 @@ void loop() {
   // put your main code here, to run repeatedly:
 }
 ```
-after the setup() there is a open brace {
+After the setup() there is a open brace {
 It tells the compiler (The thing that converts what you write to stuff the actual chip can understand) that this is the start of the group of code that belongs to the setup() function
 After your done with the setup code, you need to close the group with a }
-
 Any time you need to group code, you will need to enclose it within {}
-
 As a convention, we also indent the lines one tab to make it easier to repeatedly
 ```javascript
 void myThing() {
@@ -260,6 +257,8 @@ Open the Examples/Communication/ASCII table and upload it to your Arduino
 Once its done, click the little magnifying glass at the top right hand corner to open the serial monitor and take a look at the output.
 We can use the Serial.println() command to send data across to the PC
 
+---
+
 When your trying to debug your code, its often helpful to print stuff out to a console or monitor to get an idea of whats actually happening inside your program
 
 ```javascript
@@ -275,5 +274,5 @@ So now, if you dont see your thing happening, you can open up your serial monito
 
 
 ---
-Basics of Coding
-# Looking inside with Serial
+Basics of Coding - General coding concepts
+# Variables
