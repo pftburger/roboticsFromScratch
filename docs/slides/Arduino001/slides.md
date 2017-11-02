@@ -4,7 +4,11 @@ class: middle, center
 # Robotics from Scratch - Arduino 001
 ## dAM Winter Semester 2017
 
-Intro to Arduino Basics
+---
+
+class: left
+
+# Intro to Arduino Basics
 + Getting your environment set up
   + Download and Install
   + Look arround the IDE
@@ -15,7 +19,10 @@ Intro to Arduino Basics
   + Floating inputs
   + Serial
     + [**Exercise - PC to PC Serial**](#ex-pc2pc-serial)
-+ Code on the Arduino
+
+---
+
+# Code on the Arduino
   + Structure
     + Setup & Loop [**Exercise - One Blink Vs Many**](#ex-oneblink)
     + Curly Brackets {}
@@ -32,15 +39,18 @@ Intro to Arduino Basics
     + Functions [**Exercise **](#ex)
     + Conditionals [**Exercise **](#ex)
     + Flow control [**Exercise **](#ex)
-  + Getting Arduino ( & Micro-controller) specific
-    + Digital IO [**Exercise **](#ex)
-    + Analog IO [**Exercise **](#ex)
-    + Time, Math & Random [**Exercise **](#ex)
-  + Binding it together
-    + [**Exercise - **](#ex)
-    + [**Exercise **](#ex)
-    + [**Exercise **](#ex)
-    + [**Exercise **](#ex)
+
+---
+
+# Getting Arduino ( & Micro-controller) specific
+  + Digital IO [**Exercise **](#ex)
+  + Analog IO [**Exercise **](#ex)
+  + Time, Math & Random [**Exercise **](#ex)
++ Binding it together
+  + [**Exercise - **](#ex)
+  + [**Exercise **](#ex)
+  + [**Exercise **](#ex)
+  + [**Exercise **](#ex)
     +
 
 
