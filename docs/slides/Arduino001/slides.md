@@ -15,16 +15,15 @@ class: left
   + Connecting a board & uploading code
 + Underlying concepts
   + Voltage
-    + [**Exercise - Measuring voltage**](#ex---measuring-voltage)
+    + [Exercise - Measuring voltage](#exercise---measuring-voltage)
   + Floating inputs
   + Serial
-    + [**Exercise - PC to PC Serial**](#ex---pc2pc-serial)
-
+    + [Exercise - PC to PC Serial](#exercise---pc2pc-serial)
 ---
 
 # Code on the Arduino
   + Structure
-    + Setup & Loop [**Exercise - One Blink Vs Many**](#ex---oneblink)
+    + Setup & Loop [Exercise - One Blink Vs Many](#exercise---oneblink)
     + Curly Brackets {}
     + Line ending with the semi colon ;
   + Good Ideas
@@ -32,25 +31,25 @@ class: left
     + Block comments
   + Looking inside with Serial
   + General coding concepts
-    + Variables [**Exercise **](#ex)
-    + Constants [**Exercise **](#ex)
-    + Arithmetic [**Exercise **](#ex)
-    + Data types [**Exercise **](#ex)
-    + Functions [**Exercise **](#ex)
-    + Conditionals [**Exercise **](#ex)
-    + Flow control [**Exercise **](#ex)
+    + Variables [Exercise---](#exercise)
+    + Constants [Exercise---](#exercise)
+    + Arithmetic [Exercise---](#exercise)
+    + Data types [Exercise---](#exercise)
+    + Functions [Exercise---](#exercise)
+    + Conditionals [Exercise---](#exercise)
+    + Flow control [Exercise---](#exercise)
 
 ---
 
 # Getting Arduino ( & Micro-controller) specific
-  + Digital IO [**Exercise **](#ex)
-  + Analog IO [**Exercise **](#ex)
-  + Time, Math & Random [**Exercise **](#ex)
+  + Digital IO [Exercise---](#ex)
+  + Analog IO [Exercise---](#ex)
+  + Time, Math & Random [Exercise---](#ex)
 + Binding it together
-  + [**Exercise - **](#ex)
-  + [**Exercise **](#ex)
-  + [**Exercise **](#ex)
-  + [**Exercise **](#ex)
+  + [Exercise---](#ex)
+  + [Exercise---](#ex)
+  + [Exercise---](#ex)
+  + [Exercise---](#ex)
     +
 
 
