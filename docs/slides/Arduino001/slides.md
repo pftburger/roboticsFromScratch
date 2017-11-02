@@ -274,5 +274,64 @@ So now, if you dont see your thing happening, you can open up your serial monito
 
 
 ---
+
 Basics of Coding - General coding concepts
 # Variables
+
+You can think of variables like storage boxes. They allow you to hold on to some value fo later use.
+As their name suggests, they are, well, variable.
+
+```javascript
+int myVariable = analogRead(A0);  //So, the value that analogRead returns, is saved in myVariable
+
+//some time later, you can recall that value, just by referencing it
+if (myVariable < 100 ){
+  Serial.println("myVariable < 100 ");
+}
+
+```
+
+declaration
+scope
+
+---
+
+Basics of Coding - General coding concepts
+# Constants
+
+like variables but not variable...
+numbers
+true false
+HIGH LOW
+INPUT OUTPUT
+
+---
+
+Basics of Coding - General coding concepts
+# Arithmetic
+
+---
+
+Basics of Coding - General coding concepts
+# Data types
+
+```javascript
+byte myByte = 100 // a number from 0 to 254
+int myInteger = 752 //  a whole number from -32,767 to 32,767
+long myLong =
+
+
+
+```
+---
+
+Basics of Coding - General coding concepts
+# Functions
+---
+
+Basics of Coding - General coding concepts
+# Conditionals
+---
+
+Basics of Coding - General coding concepts
+# Flow control
