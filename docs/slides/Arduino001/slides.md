@@ -3,12 +3,30 @@ class: middle, center
 -->
 
 # Robotics from Scratch - Arduino 001
-## dAM Winter Semester 2017
+## dMA Winter Semester 2017
 
 ---
 <!---
 class: left
 -->
+
+# Outline
+
++ Intro to Arduino Basics
+  + Getting your environment set up
+  + Underlying concepts
++ Basics of Coding
+  + Structure
+  + Good Ideas
+  + Looking inside with Serial
+  + General coding concepts
++ Getting Arduino ( & Micro-controller) specific
+  + Digital IO
+  + Analog IO
+  + Time, Math & Random
+  + Binding it together
+
+---
 
 # Intro to Arduino Basics
 + Getting your environment set up
@@ -18,11 +36,11 @@ class: left
 + Underlying concepts
   + Voltage [Exercise - Measuring voltage](#exercise---measuring-voltage)
   + Floating inputs
-  + Serial [Exercise - PC to PC Serial](#exercise---pc2pc-serial)
+  + Serial [Exercise - PC to PC Serial](#exercise---pc-to-pc-serial)
 
 ---
 
-# Code on the Arduino
+# Basics of Coding
   + Structure
     + Setup & Loop [Exercise - One Blink Vs Many](#exercise---oneblink)
     + Curly Brackets {}
@@ -43,9 +61,9 @@ class: left
 ---
 
 # Getting Arduino ( & Micro-controller) specific
-  + Digital IO [Exercise---](#ex)
-  + Analog IO [Exercise---](#ex)
-  + Time, Math & Random [Exercise---](#ex)
++ Digital IO [Exercise---](#ex)
++ Analog IO [Exercise---](#ex)
++ Time, Math & Random [Exercise---](#ex)
 + Binding it together
   + [Exercise---](#ex)
   + [Exercise---](#ex)
@@ -83,11 +101,45 @@ Underlying concepts
 ---
 
 Underlying concepts
-## Connecting a board & uploading code
+## Floating inputs
 
 ---
 
 Underlying concepts
-## Connecting a board & uploading code
+## Serial
+
+---
+
+Underlying concepts
+## [](#exercise---pc-to-pc-serial)Exercise - PC to PC Serial
+
+
+---
+
+Basics of Coding - Structure
+## Setup & Loop
+
+Most of the time when programming, you will need to first set some stuff up, then run your main program.
+You can think of this as a setup phase, that runs once, and a main loop phase, that repeats over and over. Any time you open up an Arduino script you will notice
+
+```javascript
+void setup() {
+  // put your setup code here, to run once:
+}
+void loop() {
+  // put your main code here, to run repeatedly:
+}
+```
+
+Behind the scenes, the Arduino compiler takes care of looping the loop() function forever, after the setup() function has finished.
+
+you can almost think of it like this
+```javascript
+thingThatHappensOnce()
+otherThingThatsOnlyRunOnce()
+while (true) {
+  thingThatHappensOverAndOVer()
+}
+```
 
 ---
