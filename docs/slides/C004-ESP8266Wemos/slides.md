@@ -61,7 +61,7 @@ class: middle, center
 
 <b>  Its unsigned and will cause kernel panic </b>
 
-+ On mac, use [these](https://blog.sengotta.net/signed-mac-os-driver-for-winchiphead-ch340-serial-bridge/) drivers instead
++ On mac, use [these](https://0xcf.com/2015/03/13/chinese-arduinos-with-ch340-ch341-serial-usb-chip-on-os-x-yosemite/) drivers instead
 
 
 + if you fell into that trap, [here](https://tzapu.com/ch340-ch341-serial-adapters-macos-sierra/) is how to fix it
