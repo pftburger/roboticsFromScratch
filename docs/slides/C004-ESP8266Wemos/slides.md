@@ -91,6 +91,12 @@ class: middle, center
 
 ---
 
+# [](#motor-shield)Motor Shield
+
+
+
+---
+
 # [](#mqtt-on-the-esp8266)MQTT on the ESP8266
 
 ---

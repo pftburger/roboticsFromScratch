@@ -10,7 +10,7 @@ class: middle, center
 class: left
 -->
 
-# Outline
+## Outline
 
 + Intro to Arduino Basics
   + Getting your environment set up
@@ -28,7 +28,7 @@ class: left
 
 ---
 
-# Intro to Arduino Basics
+## Intro to Arduino Basics
 + Getting your environment set up
   + Download and Install
   + Look arround the IDE
@@ -40,7 +40,7 @@ class: left
 
 ---
 
-# Basics of Coding
+## Basics of Coding
   + Structure
     + Setup & Loop [Exercise - One Blink Vs Many](#exercise---oneblink)
     + Curly Brackets {}
@@ -60,7 +60,7 @@ class: left
 
 ---
 
-# Getting Arduino ( & Micro-controller) specific
+## Getting Arduino ( & Micro-controller) specific
 + Digital IO [Exercise---](#ex)
 + Analog IO [Exercise---](#ex)
 + Time, Math & Random [Exercise---](#ex)
@@ -145,7 +145,7 @@ while (true) {
 ---
 
 Basics of Coding - Structure
-# Curly Brackets {}
+## Curly Brackets {}
 
 Curly Brackets, sometimes called braces help group code.
 For example, in the bare minimum program
@@ -176,7 +176,7 @@ whereas wiggle() is only part of the myThing() function
 ---
 
 Basics of Coding - Structure
-# Line ending with the semi colon ;
+## Line ending with the semi colon ;
 
 Your program is made up of statements. The compiler needs to be able to split your program up into a long list of statement. To help it do that, we need to put a semi colon ; at the end of each statement.
 Most of the time the compiler will help you by reminding you when you leave it out.
@@ -190,7 +190,7 @@ butThisLine(); hasTwo("!");
 
 ---
 Basics of Coding - Good Ideas
-# Line & Block comments
+## Line & Block comments
 
 The Arduino language is a mashup of Javascript and C++, both of which allow things called comments.
 Comments let you, well, leave comments, in your code.
@@ -212,7 +212,7 @@ thisLineIsAlsoRun();
 
 ---
 Basics of Coding - Good Ideas
-# Naming conventions
+## Naming conventions
 
 When you coding you will have to come up with lots of names for things. Having consistent rules for naming things will help you remember what things are called, and avoid errors.
 
@@ -235,7 +235,7 @@ someInputSomewhereDunnoItsNice();
 
 ---
 Basics of Coding
-# Looking inside with Serial
+## Looking inside with Serial
 
 In the Arduino IDE, open Examples/Basic/AnalogReadSerial
 ```javascript
@@ -276,7 +276,7 @@ So now, if you dont see your thing happening, you can open up your serial monito
 ---
 
 Basics of Coding - General coding concepts
-# Variables
+## Variables
 
 You can think of variables like storage boxes. They allow you to hold on to some value fo later use.
 As their name suggests, they are, well, variable.
@@ -291,47 +291,163 @@ if (myVariable < 100 ){
 
 ```
 
-declaration
-scope
+A note on **scope**
+
+```javascript
+int thingOne;  // thingOne is visible to the whole program
+
+void loop(){
+  int thingTwo = 5; //thingTwo is visible only within the loop
+
+  while (someCondition) {
+    int thingThree = amazingFunction(); // thingThree is visible only within the while loop
+  }
+}
+```
 
 ---
 
 Basics of Coding - General coding concepts
-# Constants
+## Constants
 
-like variables but not variable...
-numbers
-true false
-HIGH LOW
-INPUT OUTPUT
+Constants are like variables but not variable... they are... wait for it, constant.
+Some examples are numbers, because 5 is always 5
+true and false are also constants.
+
+Within the Arduino language, there are also certain reserved constants that make our lives easier.
+I.E
+INPUT and OUTPUT
+HIGH and LOW
+and a few more you will encounter along the way.
+
 
 ---
 
 Basics of Coding - General coding concepts
 # Arithmetic
 
+As you would expect, you can do all of the normal mathematical functions simply, like so
+
+```javascript
+
+x = 1 + 4;
+y = x - 5;
+z = y * 100; //multiply
+i = z / 3;  // divide
+r = 32 % 5 //modulo, or remainder, IE r = 2
+```
+
+Bare in mind though, if you are using integers, division will discard the fractional component.
+
+as well comparison operators
+
+```javascript
+
+x == y  // test if x and y are equals
+x != y //
+```
+Along with those, you also have logical operators
+
+```javascript
+
+x = true && false;  //AND - true only if BOTH operators are true
+y = true || false; //OR - true if EITHER of the operators are true
+z =
+
+```
+
+
 ---
 
 Basics of Coding - General coding concepts
 # Data types
 
-```javascript
-byte myByte = 100 // a number from 0 to 254
-int myInteger = 752 //  a whole number from -32,767 to 32,767
-long myLong =
+Data on a computer is stored in ones and zeros called Bits.
+But we dont want to always have to convert stuff back and forth every time we want to save a number or a sentence in memory or to disk. As such we have a few more complex data types.
 
+Take for example a byte.
+A byte is made up of 8 bits.
+00000000 is zero
+and
+11111111 is 255
+
+here are a few others.
+
+```javascript
+byte myByte = 100; // a number from 0 to 254 (8bits)
+int myInteger = 752; //  a whole number from -32,767 to 32,767 (16 bits)
+long myLong = 26472836; // a whole number from -2,147,483,647 to 2,147,483,647 (32 bits)
+float myFlaot = 1.7532; // a fraction, or floating point number with 32 bits
+```
+
+We can also have arrays or matrices data
+
+```javascript
+int myArray[] = {1,3,5,7,9}; //an array containing the numbers 1 3 5 7 and 9
+//we can also set the set the size before hand
+int myOtherArray[5];  //an array with 5 positions in it
+
+```
+
+to get or set a specific position in an array we use brackets []
+
+```javascript
+int myArray[] = {1,3,5,7,9}; //an array containing the numbers 1 3 5 7 and 9
+
+someNumber = myArray[0] + myArray[3];  //someNumber now equals 5
 
 
 ```
+
 ---
 
 Basics of Coding - General coding concepts
 # Functions
----
 
-Basics of Coding - General coding concepts
-# Conditionals
+
+
+You can think of functions as blocks of code. You can create a function if you intend to reuse a section of code a few times. It helps keep your code readable and can greatly save time by reducing the amount of code you need to write.
+
+```javascript
+void myFunction() {   // a new function called myFunction
+  things();
+  otherThings();
+  moreThings();
+}
+```
+
+functions can return a result like so
+
+```javascript
+int doAThing() {   // notice the int. The data type returned is now expected to be an integer
+  int myNiceNum;
+  myNiceNum = 7;
+  return myNiceNum;
+}
+
+result = doAThing();
+```
+and can take inputs like so
+
+```javascript
+int add(int num1, int num2) {   // notice the int. The data type returned is now expected to be an integer
+  int total;
+  total =  num1 + num2;
+  return total;
+}
+
+result = add(5,7);  //result is now 12
+```
 ---
 
 Basics of Coding - General coding concepts
 # Flow control
+
+Conditionals test a condition. We use them to make our programs smarter than just a list of instructions executed one after another.
+
+```javascript
+if (someCondition) {
+  doAThing();
+}
+```
+so, if someCondition evaluates to true, doAThing() is run, otherwise the whole code block is skipped
