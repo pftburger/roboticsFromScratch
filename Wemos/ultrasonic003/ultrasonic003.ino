@@ -1,3 +1,5 @@
+
+
 /* 
 Robotics From Scratch 2017
 Ultrasonic range finder on the Wemos D1 Mini
@@ -7,6 +9,7 @@ Integrating a condition to trigger the LED
 
 
 */
+
 
 //Pin definitions
 #define pinEcho D7 // Echo Pin, D7 is a constant inherited from the wemos library, automatically imported when we set the board
@@ -32,6 +35,8 @@ void pulseOut(int pin, int pulseTime){
   digitalWrite(pin, HIGH);
   delayMicroseconds(pulseTime);
   digitalWrite(pin, LOW);
+
+
 }
 
 int getDistance(int pinTrigger, int pinEcho){
